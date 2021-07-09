@@ -1,0 +1,14 @@
+{
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "compilerOptions": {
+    "outDir": "build",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "jsx": "react"
+  },
+  "include": ["src/*.ts", "src/*.tsx"],
+  "exclude": ["node_modules", "build", "public"]
+}
